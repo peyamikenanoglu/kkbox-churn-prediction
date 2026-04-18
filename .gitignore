@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore raw and processed data files
+data/raw/*.csv
+data/raw/*.7z
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.pkl
+
+# Ignore large model artifacts
+models/*.pkl
+models/*.joblib
+models/*.bin
