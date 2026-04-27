@@ -208,11 +208,11 @@ def prepare_train_valid(train_df, valid_df):
 def main():
     print("Loading data...")
 
-    train = pd.read_csv("D:/GitHub/kkbox-churn-prediction/data/raw/train.csv")
-    train_v2 = pd.read_csv("D:/GitHub/kkbox-churn-prediction/data/raw/train_v2.csv")
-    transactions_old = pd.read_csv("D:/GitHub/kkbox-churn-prediction/data/raw/transactions.csv")
-    transactions_v2 = pd.read_csv("D:/GitHub/kkbox-churn-prediction/data/raw/transactions_v2.csv")
-    members = pd.read_csv("D:/GitHub/kkbox-churn-prediction/data/raw/members_v3.csv")
+    train = pd.read_csv("/data/raw/train.csv")
+    train_v2 = pd.read_csv("/data/raw/train_v2.csv")
+    transactions_old = pd.read_csv("/data/raw/transactions.csv")
+    transactions_v2 = pd.read_csv("/data/raw/transactions_v2.csv")
+    members = pd.read_csv("/data/raw/members_v3.csv")
 
     print("Converting date columns...")
 
