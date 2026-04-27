@@ -217,3 +217,11 @@ data/processed/*.pkl
 models/*.pkl
 models/*.joblib
 models/*.bin
+
+# Final project outputs
+outputs/final_figures/
+
+# Optional: ignore serialized final model file
+outputs/final_model/kkbox_xgb_final.pkl
+
+.idea/

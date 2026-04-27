@@ -1,0 +1,19 @@
+{
+    "model_name": "Tuned XGBoost Final",
+    "accuracy": 0.809247548817665,
+    "f1": 0.11438544480837737,
+    "roc_auc": 0.6432683589855297,
+    "log_loss": 0.37730401356779536,
+    "best_cv_logloss": 0.14988285597926995,
+    "best_params": {
+        "subsample": 0.8,
+        "reg_lambda": 1.5,
+        "reg_alpha": 0.01,
+        "n_estimators": 200,
+        "min_child_weight": 3,
+        "max_depth": 8,
+        "learning_rate": 0.05,
+        "gamma": 0,
+        "colsample_bytree": 0.9
+    }
+}
